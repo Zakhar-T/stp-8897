@@ -1,0 +1,96 @@
+.page-title {
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.page-updated {
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.content-list,
+.content-item,
+.content-sublist,
+.content-subitem,
+.page-intro,
+.btn-back-text {
+  font-size: 10px;
+}
+
+.content-sublist {
+  list-style-type: disc;
+  margin-left: 18px;
+}
+
+.content-list .content-item:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+.page-intro {
+  margin-bottom: 24px;
+}
+
+.legal-content-container {
+  padding: 40px 32px 0px;
+}
+
+.btn-back {
+  display: inline-block;
+  margin-bottom: 24px;
+}
+
+.svg-back {
+  fill: #eaeaea;
+}
+
+.subitem-link {
+  text-decoration: underline;
+  text-decoration-color: #eaeaea;
+}
+
+@include media(desktop) {
+  .page-title {
+    font-family: Orbitron;
+    font-weight: 700;
+    font-size: 56px;
+    margin-bottom: 40px;
+  }
+
+  .page-updated {
+    font-size: 24px;
+    line-height: 40px;
+    margin-bottom: 40px;
+  }
+
+  .content-list,
+  .content-item,
+  .content-sublist,
+  .content-subitem,
+  .page-intro,
+  .btn-back-text {
+    font-size: 16px;
+  }
+
+  .content-sublist {
+    margin-left: 25px;
+  }
+
+  .content-list .content-item:not(:last-child) {
+    margin-bottom: 40px;
+  }
+
+  .page-intro {
+    margin-bottom: 40px;
+  }
+
+  .btn-back {
+    margin-bottom: 40px;
+  }
+
+  .legal-content-container {
+    padding: 40px 32px;
+  }
+}
