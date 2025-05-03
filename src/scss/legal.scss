@@ -38,12 +38,15 @@
 }
 
 .btn-back {
-  display: inline-block;
+  display: flex;
+  align-items: center;
   margin-bottom: 24px;
 }
 
 .svg-back {
-  fill: #eaeaea;
+  margin-right: 10px;
+  display: block;
+  fill: #ffffff;
 }
 
 .subitem-link {
@@ -88,6 +91,11 @@
 
   .btn-back {
     margin-bottom: 40px;
+  }
+
+  .svg-back {
+    width: 12px;
+    height: 24px;
   }
 
   .legal-content-container {
