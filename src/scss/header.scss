@@ -85,7 +85,7 @@
 /* #region Mobile menu */
 
 .mob-menu {
-  transform: translateY(-100vh);
+  transform: translateX(100vw);
   width: 320px;
   height: 100%;
   margin: 0 auto;
@@ -100,7 +100,7 @@
 }
 
 .is-open {
-  transform: translateY(0);
+  transform: translateX(0);
 }
 
 .mob-nav-item {
