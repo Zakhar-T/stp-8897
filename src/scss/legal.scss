@@ -18,10 +18,11 @@
 .page-intro,
 .btn-back-text {
   font-size: 10px;
+  color: #ffffff;
 }
 
 .content-sublist {
-  list-style-type: disc;
+  list-style: disc;
   margin-left: 18px;
 }
 
@@ -60,6 +61,7 @@
     font-weight: 700;
     font-size: 56px;
     margin-bottom: 40px;
+    line-height: 120%;
   }
 
   .page-updated {
