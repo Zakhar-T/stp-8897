@@ -1,0 +1,28 @@
+.htp-list {
+}
+.htp-list-item {
+  display: flex;
+  gap: 16px;
+  padding: 8px 16px;
+  border-bottom: 1px solid #bcf6ff;
+  border-left: 1px solid #bcf6ff;
+  border-radius: 30px;
+}
+.htp-list-item:not(:last-child) {
+  margin-bottom: 14px;
+}
+.htp-item-number {
+  font-weight: 600;
+  font-size: 20px;
+  align-self: center;
+}
+.htp-item-text-wrapper {
+}
+.htp-item-title {
+  font-family: 'Orbitron';
+  font-weight: 500;
+  font-size: 12px;
+}
+.htp-item-text {
+  font-size: 10px;
+}
