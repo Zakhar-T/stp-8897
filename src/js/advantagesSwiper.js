@@ -3,12 +3,10 @@ import { Keyboard, Navigation } from 'swiper/modules';
 import 'swiper/css/bundle';
 import 'swiper/css/navigation';
 
-const advSwiper = new Swiper('.advtg-swiper-js', {
-  containerModifierClass: 'advtg-',
-  watchSlidesProgress: true,
+new Swiper('.advtg-swiper-js', {
   loop: true,
-  loopedSlides: 20,
-  slidesPerView: 1,
+  slidesPerView: 'auto',
+  centeredSlides: true,
   grid: {
     rows: 2,
   },
@@ -20,6 +18,7 @@ const advSwiper = new Swiper('.advtg-swiper-js', {
   breakpoints: {
     1200: {
       slidesPerView: 2,
+      spaceBetween: 24,
     },
   },
 });

@@ -1,0 +1,45 @@
+.section-title {
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+}
+.title-decoration {
+  position: relative;
+}
+.title-decoration::after {
+  content: '';
+  background-image: url('../../img/genegal/star_line_dis_m@1x.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: block;
+  width: 272px;
+  height: 20px;
+  position: relative;
+  top: -6px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+@media only screen and (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .title-decoration::after {
+    background-image: url('../../img/general/star_line_dis_m@2x.png');
+  }
+}
+
+@include media(desktop) {
+  .section-title {
+    font-size: 40px;
+  }
+  .title-decoration::after {
+    background-image: url('../../img/general/star_line_dis_d@1x.png');
+    margin-bottom: 24px;
+    width: 808px;
+    height: 67px;
+    top: -17px;
+  }
+  @media only screen and (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .title-decoration::after {
+      background-image: url('../../img/general/star_line_dis_d@2x.png');
+    }
+  }
+}
