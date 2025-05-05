@@ -9,8 +9,8 @@
   font-size: 14px;
 }
 
-.description-container {
-  padding: 48px 24px 39px 24px;
+.description-container.container {
+  padding-top: 48px;
 }
 
 .description-text-two {
@@ -52,7 +52,7 @@
 
 @include media(desktop) {
   .description-container {
-    padding: 62px 32px 66px 32px;
+    padding-top: 62px;
   }
 
   .description-title {
