@@ -11,7 +11,7 @@
 }
 .title-decoration::after {
   content: '';
-  background-image: url('../../img/genegal/star_line_dis_m@1x.png');
+  background-image: url('/img/genegal/star_line_dis_m@1x.png');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -25,7 +25,7 @@
 }
 @media only screen and (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .title-decoration::after {
-    background-image: url('../../img/general/star_line_dis_m@2x.png');
+    background-image: url('/img/general/star_line_dis_m@2x.png');
   }
 }
 
@@ -36,7 +36,7 @@
     font-size: 40px;
   }
   .title-decoration::after {
-    background-image: url('../../img/general/star_line_dis_d@1x.png');
+    background-image: url('/img/general/star_line_dis_d@1x.png');
     margin-bottom: 24px;
     width: 808px;
     height: 67px;
@@ -44,7 +44,7 @@
   }
   @media only screen and (min-resolution: 192dpi), (min-resolution: 2dppx) {
     .title-decoration::after {
-      background-image: url('../../img/general/star_line_dis_d@2x.png');
+      background-image: url('/img/general/star_line_dis_d@2x.png');
     }
   }
 }
