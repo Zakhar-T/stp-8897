@@ -1,26 +1,6 @@
 .advtg-title {
   margin-bottom: 23px;
 }
-// .advtg-title::after {
-//   content: '';
-//   background-image: url('../img/rev/star_line_rev_m@1x.png');
-//   background-position: center;
-//   background-size: cover;
-//   background-repeat: no-repeat;
-//   display: block;
-//   width: 272px;
-//   height: 20px;
-
-//   position: relative;
-//   top: -6px;
-//   left: 50%;
-//   transform: translateX(-50%);
-// }
-// @media only screen and (min-resolution: 192dpi), (min-resolution: 2dppx) {
-//   .advtg-title::after {
-//     background-image: url('../img/rev/star_line_rev_m@2x.png');
-//   }
-// }
 .advtg-swiper {
   height: 280px;
   width: 100%;
@@ -85,18 +65,6 @@
   .advtg-title {
     font-size: 40px;
   }
-  // .advtg-title::after {
-  //   background-image: url('../img/rev/star_line_rev_d@1x.png');
-  //   margin-bottom: 24px;
-  //   width: 808px;
-  //   height: 67px;
-  //   top: -17px;
-  // }
-  // @media only screen and (min-resolution: 192dpi), (min-resolution: 2dppx) {
-  //   .advtg-title::after {
-  //     background-image: url('../img/rev/star_line_rev_d@2x.png');
-  //   }
-  // }
   .advtg-swiper {
     width: 100%;
     height: 500px;

@@ -1,5 +1,3 @@
-.htp-list {
-}
 .htp-list-item {
   display: flex;
   gap: 16px;
@@ -7,22 +5,128 @@
   border-bottom: 1px solid #bcf6ff;
   border-left: 1px solid #bcf6ff;
   border-radius: 30px;
+  position: relative;
 }
 .htp-list-item:not(:last-child) {
   margin-bottom: 14px;
+}
+.htp-list-item::after,
+.htp-list-item::before {
+  content: '';
+  display: block;
+  background-image: url('../img/howToPlay/htp-star-m@1x.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+}
+@media only screen and (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .htp-list-item::after,
+  .htp-list-item::before {
+    background-image: url('../img/howToPlay/htp-star-m@2x.png');
+  }
+}
+.htp-list-item::before {
+  top: -5px;
+  left: 20px;
+  rotate: 45deg;
+}
+.htp-list-item::after {
+  right: -8px;
+  bottom: 22px;
 }
 .htp-item-number {
   font-weight: 600;
   font-size: 20px;
   align-self: center;
 }
-.htp-item-text-wrapper {
-}
 .htp-item-title {
   font-family: 'Orbitron';
   font-weight: 500;
   font-size: 12px;
+  margin-bottom: 4px;
 }
 .htp-item-text {
   font-size: 10px;
+}
+
+@include media(desktop) {
+  .htp-section.section {
+    padding-bottom: 48px;
+  }
+  .htp-container {
+    background: linear-gradient(180deg, rgba(31, 39, 45, 0) 0%, #1c1d20 100%),
+      url('../img/howToPlay/htp-section-bg-img@1x.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: 101px;
+  }
+  .htp-list-item {
+    width: 507px;
+    padding: 16px 52px 16px 70px;
+    gap: 32px;
+    border-bottom: 2px solid #bcf6ff;
+    border-left: 2px solid #bcf6ff;
+    border-radius: 48px;
+    backdrop-filter: blur(18px);
+    background: rgba(255, 255, 255, 0.01);
+  }
+  .htp-list-item:not(:last-child) {
+    margin-bottom: 24px;
+  }
+  .htp-list-item:nth-child(2) {
+    margin-left: 60px;
+  }
+  .htp-list-item:nth-child(3) {
+    margin-left: 120px;
+  }
+  .htp-list-item:nth-child(4) {
+    margin-left: 180px;
+  }
+  .htp-list-item:nth-child(5) {
+    margin-left: 240px;
+  }
+  .htp-list-item:nth-child(6) {
+    margin-left: 300px;
+  }
+  .htp-list-item::after,
+  .htp-list-item::before {
+    background-image: url('../img/howToPlay/htp-star-d@1x.png');
+    width: 18px;
+    height: 18px;
+  }
+  @media only screen and (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .htp-list-item::after,
+    .htp-list-item::before {
+      background-image: url('../img/howToPlay/htp-star-d@2x.png');
+    }
+  }
+  .htp-list-item::before {
+    top: -9px;
+    left: 30px;
+    rotate: 45deg;
+  }
+  .htp-list-item::after {
+    right: -9px;
+    bottom: 30px;
+  }
+  .htp-item-number {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.2;
+  }
+  .htp-item-text-wrapper {
+    width: 335px;
+  }
+  .htp-item-title {
+    margin-bottom: 0;
+    font-size: 18px;
+  }
+  .htp-item-text {
+    font-weight: 300;
+    font-size: 16px;
+    text-align: justify;
+  }
 }
