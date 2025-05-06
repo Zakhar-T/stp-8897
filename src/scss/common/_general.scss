@@ -1,4 +1,7 @@
 .section-title {
+  height: 37px;
+  margin-bottom: 16px;
+  overflow: visible;
   font-weight: 600;
   font-size: 20px;
   text-align: center;
@@ -28,6 +31,8 @@
 
 @include media(desktop) {
   .section-title {
+    height: 86px;
+    margin-bottom: 48px;
     font-size: 40px;
   }
   .title-decoration::after {
