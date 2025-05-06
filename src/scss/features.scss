@@ -1,0 +1,28 @@
+.ftrs-swiper {
+  overflow: hidden;
+  height: 203px;
+}
+.ftrs-list-item {
+  box-sizing: border-box;
+  padding: 16px 10px 8px;
+  border: 2.5px solid #bcf6ff;
+  border-radius: 13px;
+}
+.ftrs-item-picture {
+  display: block;
+  margin-bottom: 12px;
+}
+.ftrs-item-img {
+  border-radius: 9px;
+}
+.ftrs-item-title {
+  margin-bottom: 4px;
+  font-family: 'Orbitron';
+  font-weight: 500;
+  font-size: 12px;
+  text-align: center;
+}
+.ftrs-item-text {
+  font-size: 10px;
+  text-align: center;
+}
