@@ -93,6 +93,8 @@
 /* #region Mobile menu */
 
 .mob-menu {
+  position: relative;
+  z-index: 999;
   transform: translateX(100vw);
   width: 320px;
   height: 100vh;
