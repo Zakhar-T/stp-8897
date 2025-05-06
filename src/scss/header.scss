@@ -114,3 +114,7 @@
 }
 
 /* #endregion */
+
+[data-header][data-hide-cursor='true'] {
+  pointer-events: none;
+}
