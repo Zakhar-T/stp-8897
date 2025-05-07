@@ -1,3 +1,5 @@
+/* Styles for titles */
+
 .section-title {
   height: 37px;
   margin-bottom: 16px;
@@ -46,5 +48,53 @@
     .title-decoration::after {
       background-image: url('/img/general/star_line_dis_d@2x.png');
     }
+  }
+}
+
+/* Styles for swiper buttons */
+
+.swiper-nav-btn-wrapper {
+  display: none;
+}
+
+@include media(desktop) {
+  .swiper-nav-btn-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+  }
+  .swiper-nav-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 1px solid #bcf6ff;
+    box-shadow: 0px 0px 2px 0px #ffffff;
+    box-shadow: 0px 0px 8px 0px #dffbff;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  .swiper-nav-btn:hover,
+  .swiper-nav-btn:focus {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 2px 0px #ffffff;
+    box-shadow: 0px 0px 8px 0px #dffbff;
+  }
+  .prev-icon,
+  .next-icon {
+    stroke: #ffffff;
+    fill: transparent;
+    transition: stroke 0.3s ease;
+  }
+  .prev-icon {
+    rotate: 180deg;
+  }
+  .swiper-nav-btn:hover > .next-icon,
+  .swiper-nav-btn:focus > .next-icon,
+  .swiper-nav-btn:hover > .prev-icon,
+  .swiper-nav-btn:focus > .prev-icon {
+    stroke: #1c1d20;
   }
 }
