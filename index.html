@@ -13,20 +13,20 @@
     />
     <meta name="author" content="COXETA Dev Team" />
     <meta name="robots" content="index, follow" />
+    <title>COXETA</title>
     <link rel="canonical" href="https://fbkagavyo.xyz" />
-    <link rel="icon" type="image/svg+xml" href="/public/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="/stp-8897/assets/favicon-26ac797e.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&family=Poppins:wght@300;400;600&display=swap"
       rel="stylesheet"
     />
-    <title>COXETA</title>
     
     <script type="module" crossorigin src="/stp-8897/commonHelpers2.js"></script>
-    <link rel="modulepreload" crossorigin href="/stp-8897/assets/vendor-534acd8e.js">
-    <link rel="stylesheet" href="/stp-8897/assets/vendor-53d555c6.css">
-    <link rel="stylesheet" href="/stp-8897/assets/styles-4dd9e3cc.css">
+    <link rel="modulepreload" crossorigin href="/stp-8897/assets/vendor-a56e9e82.js">
+    <link rel="stylesheet" href="/stp-8897/assets/vendor-0442d9ce.css">
+    <link rel="stylesheet" href="/stp-8897/assets/styles-4cdad235.css">
   </head>
   <body>
     <header class="hdr" data-header>
@@ -52,55 +52,117 @@
       <nav class="hdr-nav">
         <ul class="hdr-nav-list">
           <li class="nav-item">
-            <a href="#descr-section" class="nav-item-link">Game Description</a>
+            <a
+              href="#descr-section"
+              class="nav-item-link"
+              aria-label="go to game description"
+              >Game Description</a
+            >
           </li>
           <li class="nav-item">
-            <a href="#advtg-section" class="nav-item-link">Advantages</a>
+            <a
+              href="#advtg-section"
+              class="nav-item-link"
+              aria-label="go to advantages"
+              >Advantages</a
+            >
           </li>
           <li class="nav-item">
-            <a href="" class="nav-item-link">Main Gameplay Features</a>
+            <a
+              href="#ftrs-section"
+              class="nav-item-link"
+              aria-label="go to game main gameplay features"
+              >Main Gameplay Features</a
+            >
           </li>
           <li class="nav-item">
-            <a href="#rev-section" class="nav-item-link">User Reviews</a>
+            <a
+              href="#rev-section"
+              class="nav-item-link"
+              aria-label="go to user rewievs"
+              >User Reviews</a
+            >
           </li>
           <li class="nav-item">
-            <a href="" class="nav-item-link">How to Play</a>
+            <a
+              href="#htp-section"
+              class="nav-item-link"
+              aria-label="go to how to play"
+              >How to Play</a
+            >
           </li>
-          <li class="nav-item"><a href="" class="nav-item-link">FAQ</a></li>
+          <li class="nav-item">
+            <a href="#faq-section" class="nav-item-link" aria-label="go to FAQ"
+              >FAQ</a
+            >
+          </li>
         </ul>
       </nav>
-      <button type="button" class="mob-menu-btn" data-menu="open">
+      <button type="button" class="mob-menu-btn" data-menu-open>
         <svg class="mob-menu-icon" width="24" height="24">
-          <use href="/stp-8897/assets/sprite-a8c1c734.svg#icon-burger"></use>
+          <use href="/stp-8897/assets/sprite-2e95da7a.svg#icon-burger"></use>
         </svg>
       </button>
-      <button type="button" class="mob-menu-btn inactive" data-menu="close">
+      <button type="button" class="mob-menu-btn inactive" data-menu-close>
         <svg class="mob-menu-icon" width="24" height="24">
-          <use href="/stp-8897/assets/sprite-a8c1c734.svg#icon-close"></use>
+          <use href="/stp-8897/assets/sprite-2e95da7a.svg#icon-close"></use>
         </svg>
       </button>
     </div>
   </div>
-  <div class="mob-menu" data-menu-opened>
+
+  <!-- Mobile menu -->
+
+  <div class="mob-menu" data-menu>
     <nav class="mob-nav">
       <ul class="mob-nav-list">
         <li class="mob-nav-item">
-          <a href="" class="mob-nav-item-link">Game Description</a>
+          <a
+            href="#descr-section"
+            class="mob-nav-item-link"
+            aria-label="go to game description"
+            >Game Description</a
+          >
         </li>
         <li class="mob-nav-item">
-          <a href="" class="mob-nav-item-link">Advantages</a>
+          <a
+            href="#advtg-section"
+            class="mob-nav-item-link"
+            aria-label="go to advantages"
+            >Advantages</a
+          >
         </li>
         <li class="mob-nav-item">
-          <a href="" class="mob-nav-item-link">Main Gameplay Features</a>
+          <a
+            href="#ftrs-section"
+            class="mob-nav-item-link"
+            aria-label="go to main gameplay features"
+            >Main Gameplay Features</a
+          >
         </li>
         <li class="mob-nav-item">
-          <a href="" class="mob-nav-item-link">User Reviews</a>
+          <a
+            href="#rev-section"
+            class="mob-nav-item-link"
+            aria-label="go to user rewievs"
+            >User Reviews</a
+          >
         </li>
         <li class="mob-nav-item">
-          <a href="" class="mob-nav-item-link">How to Play</a>
+          <a
+            href="#htp-section"
+            class="mob-nav-item-link"
+            aria-label="go to how to play"
+            >How to Play</a
+          >
         </li>
         <li class="mob-nav-item">
-          <a href="" class="mob-nav-item-link">FAQ</a>
+          <a
+            href="#faq-section"
+            class="mob-nav-item-link"
+            aria-label="go to FAQ"
+            >FAQ</a
+          >
         </li>
       </ul>
     </nav>
@@ -150,7 +212,7 @@
     <button type="button" class="description-btn" data-action="open">
       Read more
       <svg class="svg-read" width="14" height="14">
-        <use href="/stp-8897/assets/sprite-a8c1c734.svg#icon-arrow"></use>
+        <use href="/stp-8897/assets/sprite-2e95da7a.svg#icon-arrow"></use>
       </svg>
     </button>
   </div>
@@ -162,67 +224,90 @@
     <div class="advtg-swiper advtg-swiper-js">
       <div class="swiper-wrapper advtg-swiper-wrapper">
         <div class="swiper-slide advtg-swiper-slide">
-          <h3 class="advtg-slide-title">Innovative Duel-Lane Mechanics</h3>
-          <p class="advtg-slide-text">
-            Engage with rhythmic gameplay across two synchronized tracks.
-          </p>
+          <div class="advtg-swiper-slide-top">
+            <h3 class="advtg-slide-title">Innovative Duel-Lane Mechanics</h3>
+            <p class="advtg-slide-text">
+              Engage with rhythmic gameplay across two synchronized tracks.
+            </p>
+          </div>
+          <div class="advtg-swiper-slide-bottom">
+            <h3 class="advtg-slide-title">Original Soundtrack</h3>
+            <p class="advtg-slide-text">
+              Groove to a wide variety of exclusive and diverse musical tracks.
+            </p>
+          </div>
         </div>
         <div class="swiper-slide advtg-swiper-slide">
-          <h3 class="advtg-slide-title">Original Soundtrack</h3>
-          <p class="advtg-slide-text">
-            Groove to a wide variety of exclusive and diverse musical tracks.
-          </p>
+          <div class="advtg-swiper-slide-top">
+            <h3 class="advtg-slide-title">Immersive Storyline</h3>
+            <p class="advtg-slide-text">
+              Dive into a sci-fi musical universe with a narrative-driven
+              experience.
+            </p>
+          </div>
+          <div class="advtg-swiper-slide-bottom">
+            <h3 class="advtg-slide-title">Performance Rankings</h3>
+            <p class="advtg-slide-text">
+              Earn scores, collect medals, and rise on global music
+              leaderboards.
+            </p>
+          </div>
         </div>
         <div class="swiper-slide advtg-swiper-slide">
-          <h3 class="advtg-slide-title">Immersive Storyline</h3>
-          <p class="advtg-slide-text">
-            Dive into a sci-fi musical universe with a narrative-driven
-            experience.
-          </p>
+          <div class="advtg-swiper-slide-top">
+            <h3 class="advtg-slide-title">O2JAM Collaboration</h3>
+            <p class="advtg-slide-text">
+              Enjoy the legacy and music from a legendary rhythm franchise.
+            </p>
+          </div>
+          <div class="advtg-swiper-slide-bottom">
+            <h3 class="advtg-slide-title">Character Customization</h3>
+            <p class="advtg-slide-text">
+              Personalize your in-game researcher avatar and gear.
+            </p>
+          </div>
         </div>
         <div class="swiper-slide advtg-swiper-slide">
-          <h3 class="advtg-slide-title">Performance Rankings</h3>
-          <p class="advtg-slide-text">
-            Earn scores, collect medals, and rise on global music leaderboards.
-          </p>
+          <div class="advtg-swiper-slide-top">
+            <h3 class="advtg-slide-title">Captivating Visuals</h3>
+            <p class="advtg-slide-text">
+              Neon-infused graphics that respond to your performance.
+            </p>
+          </div>
+          <div class="advtg-swiper-slide-bottom">
+            <h3 class="advtg-slide-title">Time-Limited Challenges</h3>
+            <p class="advtg-slide-text">
+              Participate in events for exclusive tracks and rewards.
+            </p>
+          </div>
         </div>
         <div class="swiper-slide advtg-swiper-slide">
-          <h3 class="advtg-slide-title">O2JAM Collaboration</h3>
-          <p class="advtg-slide-text">
-            Enjoy the legacy and music from a legendary rhythm franchise.
-          </p>
-        </div>
-        <div class="swiper-slide advtg-swiper-slide">
-          <h3 class="advtg-slide-title">Character Customization</h3>
-          <p class="advtg-slide-text">
-            Personalize your in-game researcher avatar and gear.
-          </p>
-        </div>
-        <div class="swiper-slide advtg-swiper-slide">
-          <h3 class="advtg-slide-title">Captivating Visuals</h3>
-          <p class="advtg-slide-text">
-            Neon-infused graphics that respond to your performance.
-          </p>
-        </div>
-        <div class="swiper-slide advtg-swiper-slide">
-          <h3 class="advtg-slide-title">Time-Limited Challenges</h3>
-          <p class="advtg-slide-text">
-            Participate in events for exclusive tracks and rewards.
-          </p>
-        </div>
-        <div class="swiper-slide advtg-swiper-slide">
-          <h3 class="advtg-slide-title">Dynamic Difficulty</h3>
-          <p class="advtg-slide-text">
-            Levels adapt and scale with your skill.
-          </p>
-        </div>
-        <div class="swiper-slide advtg-swiper-slide">
-          <h3 class="advtg-slide-title">Offline Play Mode</h3>
-          <p class="advtg-slide-text">
-            Play anytime, anywhere without internet.
-          </p>
+          <div class="advtg-swiper-slide-top">
+            <h3 class="advtg-slide-title">Dynamic Difficulty</h3>
+            <p class="advtg-slide-text">
+              Levels adapt and scale with your skill.
+            </p>
+          </div>
+          <div class="advtg-swiper-slide-bottom">
+            <h3 class="advtg-slide-title">Offline Play Mode</h3>
+            <p class="advtg-slide-text">
+              Play anytime, anywhere without internet.
+            </p>
+          </div>
         </div>
       </div>
+    </div>
+    <div class="swiper-nav-btn-wrapper">
+      <button class="swiper-nav-btn" type="button" data-advtg-swiper-prev>
+        <svg class="prev-icon" width="30" height="30">
+          <use href="/stp-8897/assets/sprite-2e95da7a.svg#icon-slide-arrow"></use>
+        </svg>
+      </button>
+      <button class="swiper-nav-btn" type="button" data-advtg-swiper-next>
+        <svg class="next-icon" width="30" height="30">
+          <use href="/stp-8897/assets/sprite-2e95da7a.svg#icon-slide-arrow"></use>
+        </svg>
+      </button>
     </div>
   </div>
 </section>
@@ -235,13 +320,19 @@
         <li class="swiper-slide ftrs-list-item">
           <picture class="ftrs-item-picture">
             <source
+              media="(min-width: 1200px)"
+              srcset="/stp-8897/assets/ftrs-img-1-d@1x-4c13f9d8.jpg 1x, /stp-8897/assets/ftrs-img-1-d@2x-6bfda901.jpg 2x"
+            />
+            <source
+              media="(min-width: 320px)"
               srcset="/stp-8897/assets/ftrs-img-1-m@1x-29282cd7.jpg 1x, /stp-8897/assets/ftrs-img-1-m@2x-27705b68.jpg 2x"
             />
             <img
               class="ftrs-item-img"
-              src="/stp-8897/assets/ftrs-img-1-m@1x-29282cd7.jpg"
-              width="250"
-              height="113"
+              src="/stp-8897/assets/ftrs-img-1-d@1x-4c13f9d8.jpg"
+              alt="Feature image"
+              width="477"
+              height="215"
             />
           </picture>
           <h3 class="ftrs-item-title">Rhythm Lab</h3>
@@ -252,13 +343,19 @@
         <li class="swiper-slide ftrs-list-item">
           <picture class="ftrs-item-picture">
             <source
+              media="(min-width: 1200px)"
+              srcset="/stp-8897/assets/ftrs-img-2-d@1x-01fedbf9.jpg 1x, /stp-8897/assets/ftrs-img-2-d@2x-e88445c4.jpg 2x"
+            />
+            <source
+              media="(min-width: 320px)"
               srcset="/stp-8897/assets/ftrs-img-2-m@1x-e21be06b.jpg 1x, /stp-8897/assets/ftrs-img-2-m@2x-1343cde3.jpg 2x"
             />
             <img
               class="ftrs-item-img"
-              src="/stp-8897/assets/ftrs-img-2-m@1x-e21be06b.jpg"
-              width="250"
-              height="113"
+              src="/stp-8897/assets/ftrs-img-2-d@1x-01fedbf9.jpg"
+              alt="Feature image"
+              width="477"
+              height="215"
             />
           </picture>
           <h3 class="ftrs-item-title">Beat Sync Technology</h3>
@@ -269,13 +366,19 @@
         <li class="swiper-slide ftrs-list-item">
           <picture class="ftrs-item-picture">
             <source
+              media="(min-width: 1200px)"
+              srcset="/stp-8897/assets/ftrs-img-3-d@1x-5ce7b22f.jpg 1x, /stp-8897/assets/ftrs-img-3-d@2x-fa761b9a.jpg 2x"
+            />
+            <source
+              media="(min-width: 320px)"
               srcset="/stp-8897/assets/ftrs-img-3-m@1x-3312dbf7.jpg 1x, /stp-8897/assets/ftrs-img-3-m@2x-86a30bb7.jpg 2x"
             />
             <img
               class="ftrs-item-img"
-              src="/stp-8897/assets/ftrs-img-3-m@1x-3312dbf7.jpg"
-              width="250"
-              height="113"
+              src="/stp-8897/assets/ftrs-img-3-d@1x-5ce7b22f.jpg"
+              alt="Feature image"
+              width="477"
+              height="215"
             />
           </picture>
           <h3 class="ftrs-item-title">Tap, Slide, Hold</h3>
@@ -286,13 +389,19 @@
         <li class="swiper-slide ftrs-list-item">
           <picture class="ftrs-item-picture">
             <source
+              media="(min-width: 1200px)"
+              srcset="/stp-8897/assets/ftrs-img-4-d@1x-c03792bd.jpg 1x, /stp-8897/assets/ftrs-img-4-d@2x-4c51ad87.jpg 2x"
+            />
+            <source
+              media="(min-width: 320px)"
               srcset="/stp-8897/assets/ftrs-img-4-m@1x-669ab401.jpg 1x, /stp-8897/assets/ftrs-img-4-m@2x-79e8de0b.jpg 2x"
             />
             <img
               class="ftrs-item-img"
-              src="/stp-8897/assets/ftrs-img-4-m@1x-669ab401.jpg"
-              width="250"
-              height="113"
+              src="/stp-8897/assets/ftrs-img-4-d@1x-c03792bd.jpg"
+              alt="Feature image"
+              width="477"
+              height="215"
             />
           </picture>
           <h3 class="ftrs-item-title">Dual Track Action</h3>
@@ -304,13 +413,19 @@
         <li class="swiper-slide ftrs-list-item">
           <picture class="ftrs-item-picture">
             <source
+              media="(min-width: 1200px)"
+              srcset="/stp-8897/assets/ftrs-img-5-d@1x-f1f5597a.jpg 1x, /stp-8897/assets/ftrs-img-5-d@2x-9fdb9f81.jpg 2x"
+            />
+            <source
+              media="(min-width: 320px)"
               srcset="/stp-8897/assets/ftrs-img-5-m@1x-3ecbffc9.jpg 1x, /stp-8897/assets/ftrs-img-5-m@2x-3ec317a3.jpg 2x"
             />
             <img
               class="ftrs-item-img"
-              src="/stp-8897/assets/ftrs-img-5-m@1x-3ecbffc9.jpg"
-              width="250"
-              height="113"
+              src="/stp-8897/assets/ftrs-img-5-d@1x-f1f5597a.jpg"
+              alt="Feature image"
+              width="477"
+              height="215"
             />
           </picture>
           <h3 class="ftrs-item-title">Dimensional Themes</h3>
@@ -322,13 +437,19 @@
         <li class="swiper-slide ftrs-list-item">
           <picture class="ftrs-item-picture">
             <source
+              media="(min-width: 1200px)"
+              srcset="/stp-8897/assets/ftrs-img-6-d@1x-e8b4717d.jpg 1x, /stp-8897/assets/ftrs-img-6-d@2x-78929ca4.jpg 2x"
+            />
+            <source
+              media="(min-width: 320px)"
               srcset="/stp-8897/assets/ftrs-img-6-m@1x-309e9e8e.jpg 1x, /stp-8897/assets/ftrs-img-6-m@2x-bba68fba.jpg 2x"
             />
             <img
               class="ftrs-item-img"
-              src="/stp-8897/assets/ftrs-img-6-m@1x-309e9e8e.jpg"
-              width="250"
-              height="113"
+              src="/stp-8897/assets/ftrs-img-6-d@1x-e8b4717d.jpg"
+              alt="Feature image"
+              width="477"
+              height="215"
             />
           </picture>
           <h3 class="ftrs-item-title">Progressive Unlocks</h3>
@@ -340,13 +461,19 @@
         <li class="swiper-slide ftrs-list-item">
           <picture class="ftrs-item-picture">
             <source
+              media="(min-width: 1200px)"
+              srcset="/stp-8897/assets/ftrs-img-7-d@1x-a58569ca.jpg 1x, /stp-8897/assets/ftrs-img-7-d@2x-1e0b0665.jpg 2x"
+            />
+            <source
+              media="(min-width: 320px)"
               srcset="/stp-8897/assets/ftrs-img-7-m@1x-2e0a2739.jpg 1x, /stp-8897/assets/ftrs-img-7-m@2x-69b445a9.jpg 2x"
             />
             <img
               class="ftrs-item-img"
-              src="/stp-8897/assets/ftrs-img-7-m@1x-2e0a2739.jpg"
-              width="250"
-              height="113"
+              src="/stp-8897/assets/ftrs-img-7-d@1x-a58569ca.jpg"
+              alt="Feature image"
+              width="477"
+              height="215"
             />
           </picture>
           <h3 class="ftrs-item-title">Global Leaderboards</h3>
@@ -354,52 +481,64 @@
         </li>
       </ul>
     </div>
+    <div class="swiper-nav-btn-wrapper">
+      <button class="swiper-nav-btn" type="button" data-ftrs-swiper-prev>
+        <svg class="prev-icon" width="30" height="30">
+          <use href="/stp-8897/assets/sprite-2e95da7a.svg#icon-slide-arrow"></use>
+        </svg>
+      </button>
+      <button class="swiper-nav-btn" type="button" data-ftrs-swiper-next>
+        <svg class="next-icon" width="30" height="30">
+          <use href="/stp-8897/assets/sprite-2e95da7a.svg#icon-slide-arrow"></use>
+        </svg>
+      </button>
+    </div>
   </div>
 </section>
 
       <section class="reviews-section section" id="rev-section">
   <div class="reviews-container container">
     <h2 class="section-title title-decoration">User Reviews</h2>
-    <div class="swiper" data-swiper="reviews">
+    <div class="swiper rev-swiper" data-swiper="reviews">
       <div class="swiper-wrapper swiper-wrapper-reviews">
         <div class="swiper-slide swiper-slide-reviews">
           <p class="review-name">Mira Y.</p>
           <ul class="review-rating">
             <li class="star">
               <svg class="svg-star" width="7.67" height="7.67">
-                <use href="/stp-8897/assets/sprite-a8c1c734.svg#icon-star"></use>
+                <use href="/stp-8897/assets/sprite-2e95da7a.svg#icon-star"></use>
               </svg>
             </li>
             <li class="star">
               <svg class="svg-star" width="7.67" height="7.67">
-                <use href="/stp-8897/assets/sprite-a8c1c734.svg#icon-star"></use>
+                <use href="/stp-8897/assets/sprite-2e95da7a.svg#icon-star"></use>
               </svg>
             </li>
             <li class="star">
               <svg class="svg-star" width="7.67" height="7.67">
-                <use href="/stp-8897/assets/sprite-a8c1c734.svg#icon-star"></use>
+                <use href="/stp-8897/assets/sprite-2e95da7a.svg#icon-star"></use>
               </svg>
             </li>
             <li class="star">
               <svg class="svg-star" width="7.67" height="7.67">
-                <use href="/stp-8897/assets/sprite-a8c1c734.svg#icon-star"></use>
+                <use href="/stp-8897/assets/sprite-2e95da7a.svg#icon-star"></use>
               </svg>
             </li>
             <li class="star">
               <svg class="svg-star" width="7.67" height="7.67">
-                <use href="/stp-8897/assets/sprite-a8c1c734.svg#icon-star"></use>
+                <use href="/stp-8897/assets/sprite-2e95da7a.svg#icon-star"></use>
               </svg>
             </li>
           </ul>
           <svg class="svg-quote svg-quote-one" width="9.12" height="7.15">
-            <use href="/stp-8897/assets/sprite-a8c1c734.svg#icon-quote-right"></use>
+            <use href="/stp-8897/assets/sprite-2e95da7a.svg#icon-quote-right"></use>
           </svg>
           <p class="review-text">
             A rhythm game with a story? I'm hooked! The dual-lane gameplay is so
             fresh
           </p>
           <svg class="svg-quote svg-quote-two" width="9.12" height="7.15">
-            <use href="/stp-8897/assets/sprite-a8c1c734.svg#icon-quote-right"></use>
+            <use href="/stp-8897/assets/sprite-2e95da7a.svg#icon-quote-right"></use>
           </svg>
         </div>
         <div class="swiper-slide swiper-slide-reviews">
@@ -407,39 +546,39 @@
           <ul class="review-rating">
             <li class="star">
               <svg class="svg-star" width="7.67" height="7.67">
-                <use href="/stp-8897/assets/sprite-a8c1c734.svg#icon-star"></use>
+                <use href="/stp-8897/assets/sprite-2e95da7a.svg#icon-star"></use>
               </svg>
             </li>
             <li class="star">
               <svg class="svg-star" width="7.67" height="7.67">
-                <use href="/stp-8897/assets/sprite-a8c1c734.svg#icon-star"></use>
+                <use href="/stp-8897/assets/sprite-2e95da7a.svg#icon-star"></use>
               </svg>
             </li>
             <li class="star">
               <svg class="svg-star" width="7.67" height="7.67">
-                <use href="/stp-8897/assets/sprite-a8c1c734.svg#icon-star"></use>
+                <use href="/stp-8897/assets/sprite-2e95da7a.svg#icon-star"></use>
               </svg>
             </li>
             <li class="star">
               <svg class="svg-star" width="7.67" height="7.67">
-                <use href="/stp-8897/assets/sprite-a8c1c734.svg#icon-star"></use>
+                <use href="/stp-8897/assets/sprite-2e95da7a.svg#icon-star"></use>
               </svg>
             </li>
             <li class="star">
               <svg class="svg-star" width="7.67" height="7.67">
-                <use href="/stp-8897/assets/sprite-a8c1c734.svg#icon-star"></use>
+                <use href="/stp-8897/assets/sprite-2e95da7a.svg#icon-star"></use>
               </svg>
             </li>
           </ul>
           <svg class="svg-quote svg-quote-one" width="9.12" height="7.15">
-            <use href="/stp-8897/assets/sprite-a8c1c734.svg#icon-quote-right"></use>
+            <use href="/stp-8897/assets/sprite-2e95da7a.svg#icon-quote-right"></use>
           </svg>
           <p class="review-text">
             COXETA is visually stunning and musically thrilling. O2JAM vibes all
             the way!
           </p>
           <svg class="svg-quote svg-quote-two" width="9.12" height="7.15">
-            <use href="/stp-8897/assets/sprite-a8c1c734.svg#icon-quote-right"></use>
+            <use href="/stp-8897/assets/sprite-2e95da7a.svg#icon-quote-right"></use>
           </svg>
         </div>
         <div class="swiper-slide swiper-slide-reviews">
@@ -447,33 +586,33 @@
           <ul class="review-rating">
             <li class="star">
               <svg class="svg-star" width="7.67" height="7.67">
-                <use href="/stp-8897/assets/sprite-a8c1c734.svg#icon-star"></use>
+                <use href="/stp-8897/assets/sprite-2e95da7a.svg#icon-star"></use>
               </svg>
             </li>
             <li class="star">
               <svg class="svg-star" width="7.67" height="7.67">
-                <use href="/stp-8897/assets/sprite-a8c1c734.svg#icon-star"></use>
+                <use href="/stp-8897/assets/sprite-2e95da7a.svg#icon-star"></use>
               </svg>
             </li>
             <li class="star">
               <svg class="svg-star" width="7.67" height="7.67">
-                <use href="/stp-8897/assets/sprite-a8c1c734.svg#icon-star"></use>
+                <use href="/stp-8897/assets/sprite-2e95da7a.svg#icon-star"></use>
               </svg>
             </li>
             <li class="star">
               <svg class="svg-star" width="7.67" height="7.67">
-                <use href="/stp-8897/assets/sprite-a8c1c734.svg#icon-star"></use>
+                <use href="/stp-8897/assets/sprite-2e95da7a.svg#icon-star"></use>
               </svg>
             </li>
           </ul>
           <svg class="svg-quote svg-quote-one" width="9.12" height="7.15">
-            <use href="/stp-8897/assets/sprite-a8c1c734.svg#icon-quote-right"></use>
+            <use href="/stp-8897/assets/sprite-2e95da7a.svg#icon-quote-right"></use>
           </svg>
           <p class="review-text">
             The futuristic setting makes every beat more intense.
           </p>
           <svg class="svg-quote svg-quote-two" width="9.12" height="7.15">
-            <use href="/stp-8897/assets/sprite-a8c1c734.svg#icon-quote-right"></use>
+            <use href="/stp-8897/assets/sprite-2e95da7a.svg#icon-quote-right"></use>
           </svg>
         </div>
         <div class="swiper-slide swiper-slide-reviews">
@@ -481,38 +620,38 @@
           <ul class="review-rating">
             <li class="star">
               <svg class="svg-star" width="7.67" height="7.67">
-                <use href="/stp-8897/assets/sprite-a8c1c734.svg#icon-star"></use>
+                <use href="/stp-8897/assets/sprite-2e95da7a.svg#icon-star"></use>
               </svg>
             </li>
             <li class="star">
               <svg class="svg-star" width="7.67" height="7.67">
-                <use href="/stp-8897/assets/sprite-a8c1c734.svg#icon-star"></use>
+                <use href="/stp-8897/assets/sprite-2e95da7a.svg#icon-star"></use>
               </svg>
             </li>
             <li class="star">
               <svg class="svg-star" width="7.67" height="7.67">
-                <use href="/stp-8897/assets/sprite-a8c1c734.svg#icon-star"></use>
+                <use href="/stp-8897/assets/sprite-2e95da7a.svg#icon-star"></use>
               </svg>
             </li>
             <li class="star">
               <svg class="svg-star" width="7.67" height="7.67">
-                <use href="/stp-8897/assets/sprite-a8c1c734.svg#icon-star"></use>
+                <use href="/stp-8897/assets/sprite-2e95da7a.svg#icon-star"></use>
               </svg>
             </li>
             <li class="star">
               <svg class="svg-star" width="7.67" height="7.67">
-                <use href="/stp-8897/assets/sprite-a8c1c734.svg#icon-star"></use>
+                <use href="/stp-8897/assets/sprite-2e95da7a.svg#icon-star"></use>
               </svg>
             </li>
           </ul>
           <svg class="svg-quote svg-quote-one" width="9.12" height="7.15">
-            <use href="/stp-8897/assets/sprite-a8c1c734.svg#icon-quote-right"></use>
+            <use href="/stp-8897/assets/sprite-2e95da7a.svg#icon-quote-right"></use>
           </svg>
           <p class="review-text">
             I love unlocking new tracks and mastering each pattern.
           </p>
           <svg class="svg-quote svg-quote-two" width="9.12" height="7.15">
-            <use href="/stp-8897/assets/sprite-a8c1c734.svg#icon-quote-right"></use>
+            <use href="/stp-8897/assets/sprite-2e95da7a.svg#icon-quote-right"></use>
           </svg>
         </div>
         <div class="swiper-slide swiper-slide-reviews">
@@ -520,52 +659,51 @@
           <ul class="review-rating">
             <li class="star">
               <svg class="svg-star" width="7.67" height="7.67">
-                <use href="/stp-8897/assets/sprite-a8c1c734.svg#icon-star"></use>
+                <use href="/stp-8897/assets/sprite-2e95da7a.svg#icon-star"></use>
               </svg>
             </li>
             <li class="star">
               <svg class="svg-star" width="7.67" height="7.67">
-                <use href="/stp-8897/assets/sprite-a8c1c734.svg#icon-star"></use>
+                <use href="/stp-8897/assets/sprite-2e95da7a.svg#icon-star"></use>
               </svg>
             </li>
             <li class="star">
               <svg class="svg-star" width="7.67" height="7.67">
-                <use href="/stp-8897/assets/sprite-a8c1c734.svg#icon-star"></use>
+                <use href="/stp-8897/assets/sprite-2e95da7a.svg#icon-star"></use>
               </svg>
             </li>
             <li class="star">
               <svg class="svg-star" width="7.67" height="7.67">
-                <use href="/stp-8897/assets/sprite-a8c1c734.svg#icon-star"></use>
+                <use href="/stp-8897/assets/sprite-2e95da7a.svg#icon-star"></use>
               </svg>
             </li>
             <li class="star">
               <svg class="svg-star" width="7.67" height="7.67">
-                <use href="/stp-8897/assets/sprite-a8c1c734.svg#icon-star"></use>
+                <use href="/stp-8897/assets/sprite-2e95da7a.svg#icon-star"></use>
               </svg>
             </li>
           </ul>
           <svg class="svg-quote svg-quote-one" width="9.12" height="7.15">
-            <use href="/stp-8897/assets/sprite-a8c1c734.svg#icon-quote-right"></use>
+            <use href="/stp-8897/assets/sprite-2e95da7a.svg#icon-quote-right"></use>
           </svg>
           <p class="review-text">
             Perfect for music lovers and sci-fi fans alike!
           </p>
           <svg class="svg-quote svg-quote-two" width="9.12" height="7.15">
-            <use href="/stp-8897/assets/sprite-a8c1c734.svg#icon-quote-right"></use>
+            <use href="/stp-8897/assets/sprite-2e95da7a.svg#icon-quote-right"></use>
           </svg>
         </div>
       </div>
     </div>
-
-    <div class="reviews-btns">
-      <button class="reviews-btn" type="button" data-swiper-prev>
+    <div class="swiper-nav-btn-wrapper">
+      <button class="swiper-nav-btn" type="button" data-swiper-prev>
         <svg class="prev-icon" width="30" height="30">
-          <use href="/stp-8897/assets/sprite-a8c1c734.svg#icon-slide-arrow"></use>
+          <use href="/stp-8897/assets/sprite-2e95da7a.svg#icon-slide-arrow"></use>
         </svg>
       </button>
-      <button class="reviews-btn" type="button" data-swiper-next>
+      <button class="swiper-nav-btn" type="button" data-swiper-next>
         <svg class="next-icon" width="30" height="30">
-          <use href="/stp-8897/assets/sprite-a8c1c734.svg#icon-slide-arrow"></use>
+          <use href="/stp-8897/assets/sprite-2e95da7a.svg#icon-slide-arrow"></use>
         </svg>
       </button>
     </div>
@@ -645,7 +783,7 @@
             <span class="faq-question">Is COXETA free to play?</span>
             <div class="faq-icon-wrapper">
               <svg class="faq-icon" width="18" height="18">
-                <use href="/stp-8897/assets/sprite-a8c1c734.svg#icon-extend-arrow"></use>
+                <use href="/stp-8897/assets/sprite-2e95da7a.svg#icon-extend-arrow"></use>
               </svg>
             </div>
           </button>
@@ -662,7 +800,7 @@
             <span class="faq-question">Do I need internet to play?</span>
             <div class="faq-icon-wrapper">
               <svg class="faq-icon" width="18" height="18">
-                <use href="/stp-8897/assets/sprite-a8c1c734.svg#icon-extend-arrow"></use>
+                <use href="/stp-8897/assets/sprite-2e95da7a.svg#icon-extend-arrow"></use>
               </svg>
             </div>
           </button>
@@ -679,7 +817,7 @@
             <span class="faq-question">What's the connection with O2JAM?</span>
             <div class="faq-icon-wrapper">
               <svg class="faq-icon" width="18" height="18">
-                <use href="/stp-8897/assets/sprite-a8c1c734.svg#icon-extend-arrow"></use>
+                <use href="/stp-8897/assets/sprite-2e95da7a.svg#icon-extend-arrow"></use>
               </svg>
             </div>
           </button>
@@ -697,7 +835,7 @@
             <span class="faq-question">How often are new tracks added?</span>
             <div class="faq-icon-wrapper">
               <svg class="faq-icon" width="18" height="18">
-                <use href="/stp-8897/assets/sprite-a8c1c734.svg#icon-extend-arrow"></use>
+                <use href="/stp-8897/assets/sprite-2e95da7a.svg#icon-extend-arrow"></use>
               </svg>
             </div>
           </button>
@@ -714,7 +852,7 @@
             <span class="faq-question">Can I customize my character?</span>
             <div class="faq-icon-wrapper">
               <svg class="faq-icon" width="18" height="18">
-                <use href="/stp-8897/assets/sprite-a8c1c734.svg#icon-extend-arrow"></use>
+                <use href="/stp-8897/assets/sprite-2e95da7a.svg#icon-extend-arrow"></use>
               </svg>
             </div>
           </button>
@@ -733,7 +871,7 @@
   <div class="cookies" data-cookies>
     <div class="cookies-line">
       <svg class="cookies-icon" width="30" height="30">
-        <use href="/stp-8897/assets/sprite-a8c1c734.svg#icon-proicons_cookies"></use>
+        <use href="/stp-8897/assets/sprite-2e95da7a.svg#icon-cookies"></use>
       </svg>
       <p class="cookies-title">Cookies</p>
     </div>
@@ -747,7 +885,7 @@
     </div>
     <button class="cookies-close-btn" data-cookies-close>
       <svg class="cookies-close-icon" width="24" height="24">
-        <use href="/stp-8897/assets/sprite-a8c1c734.svg#icon-close-cookies"></use>
+        <use href="/stp-8897/assets/sprite-2e95da7a.svg#icon-close-cookies"></use>
       </svg>
     </button>
   </div>
