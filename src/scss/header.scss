@@ -62,9 +62,11 @@
   .nav-item-link {
     display: block;
     padding: 24px 0;
+    transition: text-shadow 0.25s ease;
   }
-  .nav-item-link:hover {
-    text-shadow: 0 0 4px 0 #fff;
+  .nav-item-link:hover,
+  .nav-item-link:focus {
+    text-shadow: 0 0 4px #fff;
   }
   .mob-menu-btn {
     display: none;
@@ -103,6 +105,11 @@
 .mob-nav-item-link {
   font-weight: 600;
   font-size: 20px;
+  transition: text-shadow 0.25s ease;
+}
+.mob-nav-item-link:hover,
+.mob-nav-item-link:focus {
+  text-shadow: 0 0 4px #fff;
 }
 
 /* #endregion */
