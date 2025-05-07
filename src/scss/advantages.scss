@@ -1,3 +1,19 @@
+.advtg-section {
+  position: relative;
+}
+.advtg-section::after {
+  content: '';
+  position: absolute;
+  top: -40px;
+  width: 100%;
+  height: 200%;
+  background: image-set(
+      url('../img/grd/adv_mob@1x.png') 1x,
+      url('../img/grd/adv_mob@2x.png') 2x
+    )
+    no-repeat center top;
+  z-index: -1;
+}
 .advtg-swiper {
   height: 280px;
   width: 100%;
@@ -22,7 +38,6 @@
   position: relative;
   left: -130.5px;
 }
-/* Replace nth-child selectors with class selectors */
 .slide-type-1 > .advtg-swiper-slide-top {
   background-image: url('../img/advantages/advtg-bg-img1@1x.jpg');
 }
@@ -85,9 +100,26 @@
     background-image: url('../img/advantages/advtg-bg-img10@2x.jpg');
   }
 }
+.advtg-slide-title {
+  height: 31px;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  margin-bottom: 14px;
+}
+.advtg-slide-text {
+  font-size: 10px;
+}
 
-/* Desktop styles - also updated with class selectors */
 @include media(desktop) {
+  .advtg-section::after {
+    background: image-set(
+        url('../img/grd/adv_desktop@1x.png') 1x,
+        url('../img/grd/adv_desktop@2x.png') 2x
+      )
+      no-repeat center top;
+    top: -200px;
+  }
   .advtg-swiper {
     height: 500px;
     margin-bottom: 24px;
