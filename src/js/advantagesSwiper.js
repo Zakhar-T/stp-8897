@@ -1,29 +1,22 @@
 import Swiper from 'swiper';
-import { Keyboard, Navigation } from 'swiper/modules';
-import 'swiper/css/bundle';
+import { Navigation, Pagination } from 'swiper/modules';
+import 'swiper/css';
 import 'swiper/css/navigation';
-import 'swiper/scss/keyboard';
+import 'swiper/css/pagination';
 
 new Swiper('.advtg-swiper-js', {
-  modules: [Keyboard, Navigation],
-  height: 280,
-  loop: true,
-  slidesPerView: 'auto',
+  modules: [Navigation, Pagination],
+  watchOverflow: true,
   centeredSlides: true,
-  spaceBetween: 8,
+  slidesPerView: 'auto',
+  loop: true,
+  navigation: {
+    prevEl: '[data-advtg-swiper-prev]',
+    nextEl: '[data-advtg-swiper-next]',
+  },
   breakpoints: {
     1200: {
-      height: 500,
-      slidesPerView: 2,
       spaceBetween: 24,
-      keyboard: {
-        enabled: true,
-        onlyInViewport: false,
-      },
-      navigation: {
-        prevEl: '[data-advtg-swiper-prev]',
-        nextEl: '[data-advtg-swiper-next]',
-      },
     },
   },
 });
