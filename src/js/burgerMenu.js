@@ -1,17 +1,11 @@
-const openBtn = document.querySelector('[data-menu="open"]');
-const closeBtn = document.querySelector('[data-menu="close"]');
-const mobMenu = document.querySelector('[data-menu-opened]');
+const openBtn = document.querySelector('[data-menu-open]');
+const closeBtn = document.querySelector('[data-menu-close]');
+const mobMenu = document.querySelector('[data-menu]');
 
-openBtn.addEventListener('click', handleOpen);
-closeBtn.addEventListener('click', handleClose);
+openBtn.addEventListener('click', toggleMenu);
+closeBtn.addEventListener('click', toggleMenu);
 
-function handleOpen() {
-  mobMenu.classList.toggle('is-open');
-  openBtn.classList.toggle('inactive');
-  closeBtn.classList.toggle('inactive');
-}
-
-function handleClose() {
+function toggleMenu() {
   mobMenu.classList.toggle('is-open');
   openBtn.classList.toggle('inactive');
   closeBtn.classList.toggle('inactive');
