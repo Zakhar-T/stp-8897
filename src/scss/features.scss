@@ -4,12 +4,15 @@
 }
 .ftrs-list-item {
   box-sizing: border-box;
-  padding: 16px 10px 8px;
-  border: 2.5px solid #bcf6ff;
+  width: 272px !important;
+  padding: 16px 8px 8px;
+  border: 3px solid #bcf6ff;
   border-radius: 13px;
+  background-color: #1c1d20;
 }
 .ftrs-item-picture {
   display: block;
+  width: 100%;
   margin-bottom: 12px;
 }
 .ftrs-item-img {

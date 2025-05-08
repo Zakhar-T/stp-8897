@@ -1,98 +1,96 @@
 <header class="hdr" data-header>
   <div class="hdr-container container">
-    <div class="hdr-content-wrapper">
-      <a href="/index.html" class="hdr-logo-link">
-        <picture class="hdr-logo-picture">
-          <source
-            media="(min-width: 1200px)"
-            srcset="
-              /img/header/logo-desk@1x.png 1x,
-              /img/header/logo-desk@1x.png 2x
-            "
-          />
-          <source
-            media="(max-width: 1199px)"
-            srcset="
-              /img/header/logo-mob@1x.png 1x,
-              /img/header/logo-mob@2x.png 2x
-            "
-          />
-          <img
-            src="/img/header/logo-mob@1x.png"
-            alt="Logo"
-            class="hdr-logo"
-            width="88"
-            height="72"
-          />
-        </picture>
-      </a>
-      <nav class="hdr-nav">
-        <ul class="hdr-nav-list">
-          <li class="nav-item">
-            <a
-              href="#descr-section"
-              class="nav-item-link"
-              aria-label="go to game description"
-              >Game Description</a
-            >
-          </li>
-          <li class="nav-item">
-            <a
-              href="#advtg-section"
-              class="nav-item-link"
-              aria-label="go to advantages"
-              >Advantages</a
-            >
-          </li>
-          <li class="nav-item">
-            <a
-              href="#ftrs-section"
-              class="nav-item-link"
-              aria-label="go to game main gameplay features"
-              >Main Gameplay Features</a
-            >
-          </li>
-          <li class="nav-item">
-            <a
-              href="#rew-section"
-              class="nav-item-link"
-              aria-label="go to user rewievs"
-              >User Reviews</a
-            >
-          </li>
-          <li class="nav-item">
-            <a
-              href="#htp-section"
-              class="nav-item-link"
-              aria-label="go to how to play"
-              >How to Play</a
-            >
-          </li>
-          <li class="nav-item">
-            <a href="#faq-section" class="nav-item-link" aria-label="go to FAQ"
-              >FAQ</a
-            >
-          </li>
-        </ul>
-      </nav>
-      <button type="button" class="mob-menu-btn" data-menu-open>
-        <svg class="mob-menu-icon" width="24" height="24">
-          <use href="/img/sprite.svg#icon-burger"></use>
-        </svg>
-      </button>
-      <button type="button" class="mob-menu-btn inactive" data-menu-close>
-        <svg class="mob-menu-icon" width="24" height="24">
-          <use href="/img/sprite.svg#icon-close"></use>
-        </svg>
-      </button>
-    </div>
+    <a href="index.html" class="hdr-logo-link">
+      <picture>
+        <source
+          media="(min-width: 1200px)"
+          srcset="
+            /img/header/logo-desk@1x.png 1x,
+            /img/header/logo-desk@1x.png 2x
+          "
+        />
+        <source
+          media="(max-width: 1199px)"
+          srcset="
+            /img/header/logo-mob@1x.png 1x,
+            /img/header/logo-mob@2x.png 2x
+          "
+        />
+        <img
+          src="/img/header/logo-mob@1x.png"
+          alt="Logo"
+          class="hdr-logo"
+          width="88"
+          height="72"
+        />
+      </picture>
+    </a>
+    <nav class="hdr-nav">
+      <ul class="hdr-nav-list">
+        <li class="nav-item">
+          <a
+            href="#descr-section"
+            class="nav-item-link"
+            aria-label="go to game description"
+            >Game Description</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            href="#advtg-section"
+            class="nav-item-link"
+            aria-label="go to advantages"
+            >Advantages</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            href="#ftrs-section"
+            class="nav-item-link"
+            aria-label="go to game main gameplay features"
+            >Main Gameplay Features</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            href="#rev-section"
+            class="nav-item-link"
+            aria-label="go to user rewievs"
+            >User Reviews</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            href="#htp-section"
+            class="nav-item-link"
+            aria-label="go to how to play"
+            >How to Play</a
+          >
+        </li>
+        <li class="nav-item">
+          <a href="#faq-section" class="nav-item-link" aria-label="go to FAQ"
+            >FAQ</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <button type="button" class="mob-menu-btn" data-menu-open>
+      <svg class="mob-menu-icon" width="24" height="24">
+        <use href="/img/sprite.svg#icon-burger"></use>
+      </svg>
+    </button>
+    <button type="button" class="mob-menu-btn inactive" data-menu-close>
+      <svg class="mob-menu-icon" width="24" height="24">
+        <use href="/img/sprite.svg#icon-close"></use>
+      </svg>
+    </button>
   </div>
 
   <!-- Mobile menu -->
 
   <div class="mob-menu" data-menu>
     <nav class="mob-nav">
-      <ul class="mob-nav-list">
+      <ul>
         <li class="mob-nav-item">
           <a
             href="#descr-section"
@@ -119,7 +117,7 @@
         </li>
         <li class="mob-nav-item">
           <a
-            href="#rew-section"
+            href="#rev-section"
             class="mob-nav-item-link"
             aria-label="go to user rewievs"
             >User Reviews</a

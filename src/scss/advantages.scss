@@ -14,6 +14,9 @@
     no-repeat center top;
   z-index: -1;
 }
+.advtg-container {
+  padding: 0;
+}
 .advtg-swiper {
   height: 280px;
   width: 100%;
@@ -136,7 +139,7 @@
   }
   .advtg-swiper-slide-top {
     margin-bottom: 24px;
-    left: -228px;
+    left: -240px;
   }
   .slide-type-1 > .advtg-swiper-slide-top {
     background-image: url('../img/advantages/advtg-bg-img-lap1@1x.jpg');
