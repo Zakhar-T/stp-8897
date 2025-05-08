@@ -2,7 +2,7 @@
   padding-bottom: 1px;
 }
 
-.faq-container.container {
+.faq-container {
   padding: 0;
 }
 
@@ -85,6 +85,7 @@
   }
 
   .faq-list .faq-item .open-btn {
+    right: 32px;
     font-family: 'Poppins';
     font-weight: 600;
     font-size: 20px;
@@ -129,9 +130,9 @@
     font-size: 40px;
   }
 
-  .faq-icon-wrapper {
-    right: 32px;
-  }
+  // .faq-icon-wrapper {
+  //   right: 32px;
+  // }
 
   .faq-icon {
     width: 40px;

@@ -1,3 +1,6 @@
+.ftrs-container {
+  padding: 0;
+}
 .ftrs-swiper {
   overflow: hidden;
   height: 203px;
@@ -7,6 +10,7 @@
   padding: 16px 10px 8px;
   border: 2.5px solid #bcf6ff;
   border-radius: 13px;
+  background-color: #1c1d20;
 }
 .ftrs-item-picture {
   display: block;

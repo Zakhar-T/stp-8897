@@ -107,8 +107,7 @@
   font-size: 20px;
   transition: text-shadow 0.25s ease;
 }
-.mob-nav-item-link:hover,
-.mob-nav-item-link:focus {
+.mob-nav-item-link:active {
   text-shadow: 0 0 4px #fff;
 }
 

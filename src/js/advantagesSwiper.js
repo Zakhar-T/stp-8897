@@ -4,7 +4,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/keyboard';
 
-new Swiper('.advtg-swiper-js', {
+new Swiper('[data-advtg-swiper]', {
   modules: [Navigation, Keyboard],
   watchOverflow: true,
   centeredSlides: true,

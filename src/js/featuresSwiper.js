@@ -4,43 +4,6 @@ import 'swiper/css/effect-coverflow';
 import 'swiper/css/navigation';
 import 'swiper/scss/keyboard';
 
-// new Swiper('.ftrs-swiper-js', {
-//   modules: [Keyboard, Navigation, EffectCoverflow],
-//   loop: true,
-//   slidesPerView: 'auto',
-//   watchOverflow: true,
-//   centeredSlides: true,
-//   spaceBetween: 12,
-//   breakpoints: {
-//     320: {
-//       height: 203,
-//       spaceBetween: 12,
-//     },
-//     1200: {
-//       height: 386,
-//       observer: true,
-//       observeParents: true,
-//       grabCursor: true,
-//       effect: 'coverflow',
-//       coverflowEffect: {
-//         rotate: 50,
-//         stretch: 0,
-//         depth: 100,
-//         modifier: 1,
-//         slideShadows: true,
-//       },
-//       navigation: {
-//         prevEl: '[data-ftrs-swiper-prev]',
-//         nextEl: '[data-ftrs-swiper-next]',
-//       },
-//       keyboard: {
-//         enabled: true,
-//         onlyInViewport: false,
-//       },
-//     },
-//   },
-// });
-
 let swiper;
 
 function initSwiper() {
@@ -48,7 +11,7 @@ function initSwiper() {
 
   const isDesktop = window.innerWidth >= 1200;
 
-  swiper = new Swiper('.ftrs-swiper-js', {
+  swiper = new Swiper('[data-ftrs-swiper]', {
     modules: [Keyboard, Navigation, EffectCoverflow],
     loop: true,
     slidesPerView: 'auto',
@@ -58,11 +21,11 @@ function initSwiper() {
     effect: isDesktop ? 'coverflow' : 'slide',
     coverflowEffect: isDesktop
       ? {
-          rotate: -20,
-          stretch: 0,
-          depth: 100,
-          modifier: 1,
-          slideShadows: true,
+          rotate: 30,
+          stretch: 280,
+          depth: 350,
+          modifier: 0.9,
+          slideShadows: false,
         }
       : undefined,
     navigation: {
