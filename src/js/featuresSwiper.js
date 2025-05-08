@@ -16,13 +16,14 @@ function initSwiper() {
     loop: true,
     slidesPerView: 'auto',
     centeredSlides: true,
+    loopAdditionalSlides: 1.8,
     spaceBetween: 12,
     grabCursor: isDesktop,
     effect: isDesktop ? 'coverflow' : 'slide',
     coverflowEffect: isDesktop
       ? {
           rotate: 30,
-          stretch: 280,
+          stretch: 268,
           depth: 350,
           modifier: 0.9,
           slideShadows: false,
