@@ -8,15 +8,17 @@
   background: linear-gradient(182deg, #1c1d20 100%);
 }
 .hdr-container {
-  padding: 0 12px;
-}
-.hdr-content-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 12px;
+}
+.hdr-logo-link {
+  width: 49px;
+  height: 100%;
 }
 .hdr-logo {
-  width: 49px;
+  width: 100%;
   height: 100%;
 }
 .hdr-nav {
@@ -43,9 +45,13 @@
   .hdr-container {
     padding: 0 32px;
   }
-  .hdr-logo {
+  .hdr-logo-link {
     width: 88px;
     height: 72px;
+  }
+  .hdr-logo {
+    height: 100%;
+    width: 100%;
   }
   .hdr-nav {
     display: initial;

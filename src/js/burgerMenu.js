@@ -6,35 +6,36 @@ openBtn.addEventListener('click', toggleMenu);
 closeBtn.addEventListener('click', toggleMenu);
 
 function disableScroll() {
-  window.addEventListener('scroll', e => e.preventDefault(), {
+  window.addEventListener('scroll', preventScroll, {
     passive: false,
   });
-  window.addEventListener('wheel', e => e.preventDefault(), { passive: false });
-  window.addEventListener('touchmove', e => e.preventDefault(), {
+  window.addEventListener('wheel', preventScroll, { passive: false });
+  window.addEventListener('touchmove', preventScroll, {
     passive: false,
   });
 }
 
 function enableScroll() {
-  window.removeEventListener('scroll', e => e.preventDefault());
-  window.removeEventListener('wheel', e => e.preventDefault());
-  window.removeEventListener('touchmove', e => e.preventDefault());
+  window.removeEventListener('scroll', preventScroll);
+  window.removeEventListener('wheel', preventScroll);
+  window.removeEventListener('touchmove', preventScroll);
+}
+
+function preventScroll(e) {
+  e.preventDefault();
 }
 
 function toggleMenu() {
   if (mobMenu.dataset.menu === 'active') {
     mobMenu.dataset.menu = 'inactive';
+    enableScroll();
   } else {
     mobMenu.dataset.menu = 'active';
+    disableScroll();
   }
   mobMenu.classList.toggle('is-open');
   openBtn.classList.toggle('inactive');
   closeBtn.classList.toggle('inactive');
-  if (mobMenu.dataset.menu === 'active') {
-    disableScroll();
-  } else {
-    enableScroll();
-  }
 }
 
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
